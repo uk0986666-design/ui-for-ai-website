@@ -1,16 +1,26 @@
+body{
+    background-color: #f5f3ee;
+}
+
 .main-div{
     display: flex;
-    justify-content: space-between;
-  
+    align-items: center;
+    margin-right: 100px;
 }
 .nav-links{
     display: flex;
     gap: 30px;
-    margin-right: 100px;
-
+    margin-left: auto;
+    margin-right: 20px;
 }
 
-h1{
+.main-div h2{
+    display: flex;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-sec h1{
     display: flex;
     margin-left: 100px;
 
@@ -27,6 +37,102 @@ h1{
     
     justify-content: space-between;
 }
+
+.hero-sec h1{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .hero-sec p {
     margin-right: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.image-div img{
+    height: 500px;
+    width: 200;
+    margin-right: 80px;
+    padding: 80px;
+}
+
+.thrd-div-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 30px;
+    
+}
+
+.heading-div h1{
+    display: flex;
+    color: white;
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: 50px;
+    
+}
+.heading-div p{
+    color: white;
+    margin-left: 180px;
+}
+
+.heading-div button{
+    margin-left: 180px;
+    padding: 18px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.heading-div{
+    margin-top: 100px;
+}
+
+.nav{
+    display: flex;
+    padding: 30px;
+    justify-content: flex-end;
+    margin-right: 200px;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.DropdownBTN{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.Dropdown-content{
+    position: absolute;
+    top: 50px;
+    right: 0;
+
+    background-color: white;
+    width: 220px;
+
+    border-radius: 15px;
+    padding: 15px 0;
+
+    display: none;
+}
+
+.Dropdown-content a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 12px 20px;
+}
+
+.Dropdown-content a:hover{
+    background-color: #f0f0f0;
+}
+
+.dropdown:hover .Dropdown-content{
+    display: block;
 }
