@@ -1,0 +1,30 @@
+.main-div{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.nav-links{
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+
+}
+
+h1{
+    display: flex;
+    margin-left: 100px;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+.hero-sec{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 60px;
+    margin-left: 60px;
+    justify-content: space-between;
+}
