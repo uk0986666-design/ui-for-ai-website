@@ -136,3 +136,68 @@ body{
 .dropdown:hover .Dropdown-content{
     display: block;
 }
+
+
+
+/* card section */
+
+
+.card-sec{
+    margin-top: 100px;
+    padding: 0px 100px;
+}
+.card-sec h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.card{
+    background-color: #d9d1c4;
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+}
+
+.card h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card p{
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 35px;
+}
+.card button{
+    margin-top: 30px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.info{
+    margin-top: 80px;
+}
+.info-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-row span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+hr{
+    background-color: #d9d1c4;
+    opacity: 0.5;
+    
+}
